@@ -1,0 +1,103 @@
+body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+      max-width: 1500px;
+      margin: 0;
+    }
+
+    .hero-text {
+      flex: 1;
+      background: linear-gradient(to right, #fefcea, #d2f1f3);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .hero-text h1 {
+        font-family: 'Montserrat', sans-serif;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 1.5em;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .hero-text .buttons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .hero-text .contact-btn {
+      background-color: black;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .hero-image img {
+      width: 100%;
+      max-width: 1200px;
+      border-radius: 20px;
+      object-fit: cover;
+      margin-left: 100px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column-reverse;
+        padding: 30px;
+      }
+
+      .hero-text, .hero-image {
+        width: 100%;
+      }
+
+      .hero-text {
+        margin-top: 20px;
+      }
+    }
+    .projects h2{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .project-card {
+        font-family: 'Inter', sans-serif;
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .project-card p {
+        font-size: 1.2em;
+        color: #555;
+        margin-top: 10px;
+        align-items: center;
+    }
+    
